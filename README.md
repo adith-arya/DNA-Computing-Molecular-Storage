@@ -1,102 +1,69 @@
-# DNA Computing: Exploring DNA-Based Data Storage and Information Processing
+# HelixLab – DNA Computing & Molecular Data Storage
 
-An interactive educational web application exploring how DNA can be used as a medium for computing and digital data storage.
+An interactive educational platform exploring how DNA molecules can encode, store, and retrieve digital information.
 
-> **Group 1 — CSE Cybersecurity**
+## About
 
----
+HelixLab bridges molecular biology and computer science by demonstrating how the four DNA nucleotide bases (A, T, G, C) can represent digital data.
 
-## 🧬 About
+## Features
 
-This project is an Experiential Learning submission that explores the cutting-edge concept of **DNA-based computing** — encoding binary data as nucleotide sequences (A, T, G, C) and simulating core operations like encoding, complementary strand generation, GC-content analysis, and sequence lookup.
+- **DNA Basics:** Explore DNA structure, nucleotides and complementary base pairing.
+- **DNA Encoding:** Understand binary-to-DNA conversion.
+- **7-Stage Pipeline:** Visualize the complete encoding and decoding process.
+- **Interactive Simulator:** Convert text into DNA sequences and recover the original data.
+- **DNA Storage:** Explore real-world molecular storage techniques.
+- **DNA Computing:** Learn about molecular logic gates and strand displacement.
+- **Applications & Challenges:** Discover potential uses and technical limitations.
 
----
+## Technology Stack
 
-## 🛠 Tech Stack
+- HTML5
+- CSS3
+- JavaScript
+- Vite
 
-| Layer | Technology |
-|---|---|
-| Frontend framework | React 18 (Vite) |
-| Routing | React Router DOM v7 |
-| Animations | Framer Motion |
-| Charting | Recharts |
-| Styling | Tailwind CSS v3 |
-| Testing | Vitest + Testing Library |
-| Package manager | pnpm |
+## Getting Started
 
----
-
-## 🚀 Quick Start
+Clone the repository:
 
 ```bash
-cd "dna-computing-website"
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+```
+
+Install dependencies:
+
+```bash
 npm install
+```
+
+Start the development server:
+
+```bash
 npm run dev
 ```
 
-*(Or using `pnpm`)*:
+Build for production:
+
 ```bash
-pnpm install
-pnpm dev
+npm run build
 ```
 
-The app will be available at **http://localhost:5173**
+## Project Objective
 
-To run unit tests:
-```bash
-npm test
-```
+To make DNA computing and molecular data storage easier to understand through scientific explanations, interactive visualizations and practical simulations.
+
+## Future Scope
+
+- Error detection and correction.
+- Image and document encoding.
+- DNA mutation simulation.
+- Advanced molecular computing demonstrations.
+
+## Disclaimer
+
+HelixLab is an educational simulation platform. It demonstrates digital DNA encoding and decoding, not actual laboratory DNA synthesis or sequencing.
 
 ---
 
-## 🗺 Routes
-
-| Path | Page | Description |
-|---|---|---|
-| `/` | Landing Page | Introduction, helix animation, base primer, encoding pipeline |
-| `/simulator` | DNA Simulator | Interactive encoder/decoder, sequence visualiser, GC-content chart |
-
----
-
-## 📁 Project Structure
-
-```
-src/
-├── components/
-│   ├── Navbar.jsx            — Navigation bar
-│   ├── Footer.jsx            — Footer with team info
-│   ├── DoubleHelix.jsx       — Animated SVG double helix
-│   ├── NucleotideParticles.jsx — Floating A/T/G/C particle background
-│   ├── HelixDivider.jsx      — Decorative animated section divider
-│   ├── ScrollProgress.jsx    — Helix-style scroll progress bar
-│   ├── PipelineStep.jsx      — Encoding pipeline step card
-│   ├── BaseCard.jsx          — Nucleotide base information card
-│   └── HelixBuilder.jsx      — Simulator helix builder animation
-├── pages/
-│   ├── LandingPage.jsx       — Home / landing page
-│   └── SimulatorPage.jsx     — Interactive DNA simulator
-├── lib/
-│   ├── dnaCodec.js           — DNA encoding/decoding logic
-│   └── dnaCodec.test.js      — Unit tests for the codec
-├── App.jsx                   — Root app with router
-├── main.jsx                  — Vite entry point
-└── index.css                 — Global styles + Tailwind
-```
-
----
-
-## 👥 Team
-
-**Group 1 — CSE Cybersecurity**  
-- Adith Arya (`25BTRCC059`)
-- Alby Thomas (`25BTRCC008`)
-- Ananthu M K (`25BTRCC010`)
-- Ansaff E C (`25BTRCC012`)
-- Sabaresh V S B (`25BTRCC046`)
-- Seyaan Ahmed T S (`25BTRCC049`)  
-
----
-
-## 📄 License
-
-For academic / educational use only.
+**HelixLab – Exploring the Future of Molecular Computing.**
