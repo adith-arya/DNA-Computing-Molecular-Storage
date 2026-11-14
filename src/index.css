@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ───── CSS custom properties ───── */
+:root {
+  --color-a: #3478C8;
+  --color-c: #8CA0B0;
+  --color-g: #25B8C8;
+  --color-t: #24B8A5;
+
+  --color-primary: #087F8C;
+  --color-secondary: #3478C8;
+  --color-accent: #24B8A5;
+  --color-background: #F4F8FA;
+  --color-surface: #FFFFFF;
+  --color-surface-secondary: #EDF4F7;
+  --color-border: #DCE9EF;
+  --color-muted: #607386;
+  --color-text: #101F36;
+  --color-dark-surface: #192D46;
+}
+
+/* ───── Base styles ───── */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', 'Inter', sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+}
+
+/* ───── Base-coloring utility classes ───── */
+.base-A { color: var(--color-a); }
+.base-C { color: var(--color-c); }
+.base-G { color: var(--color-g); }
+.base-T { color: var(--color-t); }
+
+.bg-base-A { background-color: var(--color-a); }
+.bg-base-C { background-color: var(--color-c); }
+.bg-base-G { background-color: var(--color-g); }
+.bg-base-T { background-color: var(--color-t); }
+
+/* ───── Custom scrollbar ───── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-background);
+}
+::-webkit-scrollbar-thumb {
+  background: #B7CBD5;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #B7CBD5 var(--color-background);
+}
